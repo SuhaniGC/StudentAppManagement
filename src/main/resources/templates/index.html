@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMIMS ADMIN PANNEL</title>
+    <link rel="stylesheet" href="/CSS/Header.css">
+    <link rel="stylesheet" href="/CSS/Footer.css">
+    <link rel="stylesheet" href="/CSS/Content.css">
+    <link rel="stylesheet" href="/CSS/ImageSlideshow.css">
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="/Images/NmimsLogo.jpg" alt="NMIMS Logo">
+
+            <div class = "Uname">
+                <h1>
+                    MUKESH PATEL SCHOOL OF TECHNOLOGY AND MANAGEMENT ENGINEERING
+                </h1>
+            </div>
+            </h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a th:href="@{/}"  class = "header-link">Home</a></li>
+                <li><a href="/createstudent"  class = "header-link">Create Student</a></li>
+                <li><a href="/viewstudent"  class = "header-link">View Student</a></li>
+                <li><a href="#"  class = "header-link">CONTACT US</a></li>
+                <li><strong><div id = "time"></div></strong></li>
+            </ul>
+        </nav>
+    </header>
+
+</div>
+    <!-- IMAGE SLIDESHOW -->
+
+    <div class="slideshow-container">
+        <center>
+            <div class="mySlides fade">
+                <img src="/Images/TOPVIEW_NMIMS.jpg" style="width:80%">
+            </div>
+            <div class="mySlides fade">
+                <img src="/Images/ACADEMIC_BUILDING.jpg" style="width:80%">
+            </div>
+            <div class="mySlides fade">
+                <img src="/Images/NMIMSLIBERARY.jpg" style="width:80%">
+            </div>
+            <div class="mySlides fade">
+                <img src="/Images/THEATERE.jpg" style="width:80%">
+            </div>
+            
+        </center>
+    </div>
+
+    <!-- Content -->
+
+    <div class = "box">
+        <div class = "Content">
+            <h3>Create Student</h3>
+            <a href = "/createstudent" class = "Content-link">View More</a>
+        </div>
+    
+        <div class = "Content">
+            <h3>View Student</h3>
+            <a href = "/viewstudent"  class = "Content-link">View More</a>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footers">
+        <div class="list">
+            <ul>
+                <h3>Campuses</h3>
+                <li>Mumbai</li>
+                <li>Bengaluru</li>
+                <li>Shipur</li>
+                <li>Hyderabad</li>
+                <li>Indore</li>
+                <li>Navi Mumbai</li>
+            </ul>
+        </div>
+        <div class="list">
+            <ul>
+                <h3>Administration</h3>
+                <li>Chancellor</li>
+                <li>Vice Chancellor</li>
+                <li>Pro-Vice Chancellor</li>
+                <li>University Administration</li>
+            </ul>
+        </div>
+    
+        <!-- <div class="list">
+            <img src="/Images/NmimsLogo.jpg" alt="Logo">
+        </div> -->
+        <div class="list">
+            <ul>
+                <h3>Contact Us</h3>
+                <li>Phone No:  02563-295545/46/47/48/49</li>
+                <li>Email id: <a href="mailto:shirpur@nmims.edu">shirpur@nmims.edu</a></li>
+                <li>University Administration</li>
+            </ul>
+        </div>
+        <div class="list">
+            <ul>
+                <h3>Other Links</h3>
+                <li>University Home</li>
+                <li>AICTE Approvals</li>
+                <li>Research</li>
+                <li>Corporate</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/JS/Header.js"></script>
+<script src="/JS/ImageSlideshow.js"></script>
+
+</body>
+</html>

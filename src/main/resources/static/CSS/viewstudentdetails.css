@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgba(44, 129, 163, 0), #3a0a5a);
+    background-size: 100%;
+}
+
+#main
+{
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+#student-details{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 35%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 10px;
+    padding-left: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.886) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 100%);
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+
+
+
+
+.studentinfo-link
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: #f9f9f9; 
+  color: #000;
+}
+
+.studentinfo-link:hover {
+  background-color: rgb(132, 132, 192);
+
+}

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgba(44, 129, 163, 0), #3a0a5a);
+    background-size: 100%;
+}
+
+.Forms {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 35%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 10px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.886) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.5) 100%);
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+
+.Contact
+{
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: 10%;
+    width: 100%;
+    height: 10%;
+}
+
+#Phnno, #Email, #Sname
+{
+    width: 80%;
+    height: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+:placeholder-shown
+{
+    font-weight: bold;
+}
+.Error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.Buttons
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button[type="submit"],[ type = "reset"] {
+    background-color: white;
+    color:#333;
+    padding: 10px 20px; 
+    border: #333;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+    
+    
+}
+
+button[type="submit"]:hover,[ type = "reset"]:hover {
+    background-color: #93c373; 
+}
+
